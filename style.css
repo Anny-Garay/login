@@ -3,7 +3,7 @@
   padding:0;
   box-sizing:border-box;
 }
-body {
+body{
   background: #ffdd76;
 } 
 .container {
@@ -39,7 +39,7 @@ body {
   color: #2686FF;
   font-size: 35px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 .row{
 height: 100%;
@@ -135,8 +135,21 @@ small{
 a{
     font-size: 12px;
 }
-
-
+.form-group {
+    margin-right: 20px;
+}
+#confirm-password{
+  margin-bottom: 13px;
+}
+/****************************************Registro*/
+.registro{
+  position: relative;
+  height: 100%;
+  border-radius: 25px;
+}
+.registro .myLeftCtn{
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
 
 
 @media (max-width:480px) {
@@ -148,6 +161,10 @@ a{
 }
 header{
     text-align: center;
+}
+.registro .col-md-6{
+  padding-right: 50px;
+  padding-left: 50px;
 }
 }
 
